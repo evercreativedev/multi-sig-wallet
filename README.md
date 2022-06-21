@@ -1,15 +1,23 @@
-# Basic Sample Hardhat Project
+# Multi-Sig Wallet Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Specifications (The wallet owners can)
 
-Try running some of the following tasks:
+- submit a transaction
+- approve and revoke approval of pending transactions
+- anyone can execute a transaction after enough owners has approved it.
 
-```shell
+## Installation
+
+```
+npm install
 npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+node scripts/multi-sig-wallet-script.js
 npx hardhat help
 ```
+## Developer
+
+- Peter Jin
